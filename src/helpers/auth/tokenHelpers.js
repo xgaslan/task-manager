@@ -28,3 +28,5 @@ const getAccessTokenFromHeader = (req) => {
 };
 
 export { sendJwtToClient, isTokenIncluded,getAccessTokenFromHeader};
+
+// TODO : Burada kullandığın ve helper adı altında topladığın metodların hepsi bahsettiğim auth middleware yapısında barına bilir başka bir service burayı direk olarak kullanmayacak veya override etmeyecek...

@@ -15,3 +15,5 @@ const connectToDb = async () => {
 }
 
 export default connectToDb;
+
+// TODO : Database connector bir helper function değildir. Bir context'tir. Logicsel olarak burada bulunması doğru değil

@@ -36,6 +36,10 @@ app.use('/api', apiRouter);
 app.use('/tasks', tasksRouter)
 app.use('/users', userRouter)
 
+// TODO : routes'ları burada teker teker vermektense bunları bir main route üzerinde toplayıp burayı temiz tutabilirsin.
+// TODO : oluşturulan endpoint'ler için postman_collection yerine swagger-autogen kullanabilirsin
+// TODO : referance projeme buradan erişebilirsin -> https://github.com/xgaslan/nodejs-middleware
+
 
 connectToDb().then(() => {
     app.listen(PORT, () => {

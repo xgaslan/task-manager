@@ -68,3 +68,6 @@ UserSchema.pre("save", function (next) {
 });
 
 export default mongoose.models.User || mongoose.model("User", UserSchema);
+
+
+// TODO : Model'de neden business logic bulunuyor?

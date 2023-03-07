@@ -19,3 +19,5 @@ const customErrorHandler = (err, req, res, next) => {
     };
 
 export default customErrorHandler;
+
+// TODO : İsimlendirmeler(klasör/dosya)bir pattern'e sahip değil ve nodeJS'e uygun değil  
